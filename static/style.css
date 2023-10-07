@@ -2,7 +2,8 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans JP', sans-serif; /* Apply the font to the entire page */
+    font-family: 'Roboto', sans-serif;
+    /* Apply the font to the entire page */
 }
 
 /* Width of the scrollbar */
@@ -32,6 +33,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Apply styles to the container */
@@ -47,7 +49,8 @@ header {
 h1, h2 {
     margin: 20px 0;
     text-align: center;
-    color: #e50914; /* Change text color */
+    color: #e50914; 
+   /* Change text color */
 }
 
 /* Apply styles to paragraphs */
