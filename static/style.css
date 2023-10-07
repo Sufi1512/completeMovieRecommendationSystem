@@ -1,0 +1,174 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif; /* Apply the font to the entire page */
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #e50914;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Apply styles to the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to headings */
+h1, h2 {
+    margin: 20px 0;
+    text-align: center;
+    color: #e50914; /* Change text color */
+}
+
+/* Apply styles to paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Apply styles to the unordered list */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Apply styles to list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add styles for the movie class */
+.movie {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    /* Add more movie-related styles here */
+}
+
+/* Add styles for the movie-content class */
+.movie-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Add styles for buttons with the btn-block class */
+.btn-block {
+    width: 15%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #e4e0e0;
+    /* Add more button-related styles here */
+}
+
+/* Add styles for the content id */
+#content {
+    background-image: url("../static/image.jpg");
+    background-color: #181818;
+    /* Add more styles for the content id */
+}
+
+/* Add styles for the details id */
+#details {
+    margin-left: 50px;
+    /* Add more styles for the details id */
+}
+
+/* Add styles for the body-content class */
+.body-content {
+    position: relative;
+    min-height: 100%;
+    /* Add more styles for the body-content class */
+}
+
+/* Add styles for the footer class */
+.footer {
+    color: #e4e0e0;
+    background-color: #e50914d1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Add more styles for the footer class */
+}
+
+/* Add styles for social icons */
+.social-icons {
+    margin-left: 15px;
+    /* Add more styles for social icons */
+}
+
+/* Add styles for the name id */
+#name {
+    color: white;
+    padding: 1px;
+    /* Add more styles for the name id */
+}
+
+/* Add styles for h6 elements */
+h6 {
+    margin-bottom: 20px;
+    /* Add more styles for h6 elements */
+}
+
+/* Add media query for screens with max width of 650px */
+@media only screen and (max-width: 650px) {
+    /* Add styles for screens with max width of 650px */
+}
+
+/* Add media query for screens with max width of 991px */
+@media only screen and (max-width: 991px) {
+    /* Add styles for screens with max width of 991px */
+}
+
+/* Add media query for screens with min width of 992px */
+@media only screen and (min-width: 992px) {
+    /* Add styles for screens with min width of 992px */
+}
+
+/* Add media query for screens with min width of 651px */
+@media only screen and (min-width: 651px) {
+    /* Add styles for screens with min width of 651px */
+}
+
+/* Add more custom styles as needed */
